@@ -1,0 +1,125 @@
+body {
+  margin: 0px;
+}
+
+html { 
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+header {
+  /* background-color: rgba(97, 158, 160, .5); */
+  height: 85vh;
+  background: linear-gradient(
+    rgba(182, 197, 198, 0.4),
+    rgba(231, 249, 250, 0.4)
+    ), url('./images/hamza-tighza--EQgtTaeNwg-unsplash.jpg');
+    background-size: cover;
+    /* position: relative; */
+  }
+
+  .name-title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 4.5em;
+    /* color: rgb(184, 169, 167); */
+    color: white;
+    text-align: center;
+    margin-bottom: 0;
+    padding-top: 60vh;
+    /* bottom: 0;
+    position:absolute; */
+  }
+
+  .main-subtitle {
+    font-family: 'Liu Jian Mao Cao', cursive;
+    color: rgb(24, 22, 24);
+    text-align: center;
+  }
+
+  .all-the-skills {
+    background-color: rgba(95, 154, 156, .5);
+
+  }
+
+  .skills-header {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 3em;
+    text-align: center;    
+    color: cadetblue;
+    margin: 0;
+    padding: 6vh 0 6vh 0;
+  }
+  
+  .skill-row1, .skill-row2 {
+    width: 2vw;
+    place-self: center;
+  }
+  
+  /* .skills-blurb {
+    display:none;
+  } */
+  
+  /* .skills-blurb:hover {
+    display:inline-block;
+  } */
+  
+  .skills-blurb {
+    padding: 1vh 0;
+  }
+  
+  .skill-name {
+    font-size: .5em;
+    color: grey;
+    padding-bottom: 4vh;
+    text-align: center;    
+  }
+
+    .fa-js:hover{
+background-color:pink;
+    }
+    .fa-html5:hover{
+background-color:pink;
+    }
+    .fa-css3-alt:hover{
+background-color:pink;
+    }
+    .fa-node-js:hover{
+background-color:pink;
+    }
+    .fa-react:hover{
+background-color:pink;
+    }
+    .fa-github:hover{
+background-color:pink;
+    }
+    .fa-sketch:hover{
+background-color:pink;
+    }
+    .postgresql-icon:hover{
+background-color:pink;
+    }
+    .sql-icon:hover{
+background-color:pink;
+    }
+ 
+
+  .skills {
+    font-family: 'Libre Franklin', sans-serif;
+    text-align: center;    
+    color: white;
+    font-size: 2em;
+    /* padding-top: 3vh; */
+    padding: 0;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
+    
+  }
+
+
+
+  footer {
+    background-color: lightgrey;
+  }
+
+
