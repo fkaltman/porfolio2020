@@ -19,7 +19,9 @@ header {
   }
 
   .name-title {
-    font-family: 'Libre Franklin', sans-serif;
+    /* font-family: 'Libre Franklin', sans-serif; */
+    font-family: 'Fredericka the Great', cursive;
+    /* font-family: 'Amatic SC', cursive; */
     font-size: 4.5em;
     /* color: rgb(184, 169, 167); */
     color: white;
@@ -29,31 +31,43 @@ header {
     /* bottom: 0;
     position:absolute; */
   }
-
+  
   .main-subtitle {
-    font-family: 'Liu Jian Mao Cao', cursive;
+    font-family: 'Libre Franklin', sans-serif;
     color: rgb(24, 22, 24);
     text-align: center;
   }
 
-  .all-the-skills {
-    background-color: rgba(95, 154, 156, .5);
-
-  }
-
+  
   .skills-header {
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 3em;
+    background-color: rgba(95, 154, 156, .5);
+    font-family: 'Amatic SC', cursive;
+    /* font-family: 'Reem Kufi', sans-serif; */
+    /* font-family: 'Fredericka the Great', cursive; */
+    font-size: 6em;
     text-align: center;    
     color: cadetblue;
     margin: 0;
     padding: 6vh 0 6vh 0;
   }
   
+  .all-the-skills {
+    background-color: rgba(95, 154, 156, .5);
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
+}
+  .all-the-skills2 {
+    background-color: rgba(95, 154, 156, .5);
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 14vw 14vw 14vw 14vw;
+}
+
   .skill-row1, .skill-row2 {
-    width: 2vw;
-    place-self: center;
+    text-align: center;
   }
+  
   
   /* .skills-blurb {
     display:none;
@@ -68,55 +82,54 @@ header {
   }
   
   .skill-name {
+    display:none;
     font-size: .5em;
     color: grey;
     padding-bottom: 4vh;
     text-align: center;    
+    /* justify-self: center; */
   }
 
+  .skill{
+    justify-self: center;
+  }
+  
     .fa-js:hover{
-background-color:pink;
-    }
-    .fa-html5:hover{
-background-color:pink;
-    }
-    .fa-css3-alt:hover{
-background-color:pink;
+     display: none;
+      }
+      .fa-html5:hover{
+     display: none;
+      }
+      .fa-css3-alt:hover{
+     display: none;
     }
     .fa-node-js:hover{
-background-color:pink;
+     display: none;
     }
     .fa-react:hover{
-background-color:pink;
+      display: none;
     }
     .fa-github:hover{
-background-color:pink;
+      display: none;
     }
     .fa-sketch:hover{
-background-color:pink;
+      display: none;
     }
     .postgresql-icon:hover{
-background-color:pink;
+      display: none;
     }
     .sql-icon:hover{
-background-color:pink;
+      display: none;
     }
- 
-
-  .skills {
-    font-family: 'Libre Franklin', sans-serif;
-    text-align: center;    
-    color: white;
-    font-size: 2em;
-    /* padding-top: 3vh; */
-    padding: 0;
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
     
-  }
-
-
+    .row1, .row2 {
+        width: 2vw;
+        font-family: 'Libre Franklin', sans-serif;
+        text-align: center;    
+        color: white;
+        font-size: 2em;
+        padding-top: 3vh;
+      }
 
   footer {
     background-color: lightgrey;
