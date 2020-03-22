@@ -63,65 +63,35 @@ header {
     display: grid;
     grid-template-columns: 14vw 14vw 14vw 14vw;
 }
-
-  .skill-row1, .skill-row2 {
-    text-align: center;
-  }
-  
-  
-  /* .skills-blurb {
-    display:none;
-  } */
-  
-  /* .skills-blurb:hover {
-    display:inline-block;
-  } */
   
   .skills-blurb {
     padding: 1vh 0;
   }
   
-  .skill-name {
-    display:none;
+  .skill-hidden-name {
+    /* display: none; */
     font-size: .5em;
-    color: grey;
-    padding-bottom: 4vh;
+    /* color: rgb(255, 255, 255); */
+    color: rgba(95, 154, 156, .5);
+    padding-bottom: 8vh;
     text-align: center;    
-    /* justify-self: center; */
-  }
-
-  .skill{
     justify-self: center;
   }
+
+  .skill-hidden-name:hover{
+    opacity:1;
+  }
   
-    .fa-js:hover{
-     display: none;
-      }
-      .fa-html5:hover{
-     display: none;
-      }
-      .fa-css3-alt:hover{
-     display: none;
-    }
-    .fa-node-js:hover{
-     display: none;
-    }
-    .fa-react:hover{
-      display: none;
-    }
-    .fa-github:hover{
-      display: none;
-    }
-    .fa-sketch:hover{
-      display: none;
-    }
-    .postgresql-icon:hover{
-      display: none;
-    }
-    .sql-icon:hover{
-      display: none;
-    }
-    
+  .skill{
+    justify-self: center;
+    padding-bottom: 8vh;
+  }
+
+  /* Below hides skills icons */
+  /* .skill-hide:hover{
+    display: none;
+  } */
+
     .row1, .row2 {
         width: 2vw;
         font-family: 'Libre Franklin', sans-serif;
@@ -129,10 +99,44 @@ header {
         color: white;
         font-size: 2em;
         padding-top: 3vh;
+        /* grid-template-columns: 14vw 14vw 14vw 14vw 14vw; */
       }
 
-  footer {
-    background-color: lightgrey;
-  }
+      .email-form {
+        height: 70vh;
+        background-image: url('./images/florian-klauer-expanded.png') ;
+        background-position: center;
+        background-repeat: no-repeat;
+        padding-left: 50vw;
+        font-size: 2em;
+        padding-top: 4vh;
+        color:rgb(32, 45, 46);
+        font-family: 'Amatic SC', cursive;
+        border: solid 2px lightgrey;
+      }
+
+      .email-form-header {
+        padding-top: 4vh;
+        color:cadetblue;
+        font-family: 'Amatic SC', cursive;
+      }
+      
+      .send-touch {
+        color: rgb(95, 129, 160);
+        font-family: 'Amatic SC', cursive;
+        border: solid 2px lightgrey;
+      }
+      
+      footer {
+        padding-top: 1vh;
+        text-align: center;
+        height: 6vh;
+        font-family: 'Amatic SC', cursive;
+        text-align: center;
+        background-color: lightgrey;
+        margin-top: 0;
+        /* position: absolute;
+        bottom: 0px; */
+      }
 
 

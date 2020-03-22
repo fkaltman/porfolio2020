@@ -7,7 +7,10 @@
   <link rel="stylesheet" type="text/css" href="main.css" />
   <script src="https://kit.fontawesome.com/d0dff7d6ab.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="./images/fa_pink_orange2.png" />
-  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Libre+Franklin|Reem+Kufi&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Libre+Franklin|Reem+Kufi&display=swap"
+    rel="stylesheet">
+  <script type='text/javascript' src='script.js'></script>
 </head>
 
 <body>
@@ -15,75 +18,96 @@
     <h1 class="name-title">F R A N C I N E <br> A L T M A N </h1>
     <p class="main-subtitle">I am a web developer who like making things and sharing them with other people.</p>
   </header>
+
+  <!-- ---------------------------------- -->
+  <!-- ------------Skills---------------- -->
+  <!-- ---------------------------------- -->
+
   <h2 class="skills-header">S K I L L S</h2>
-    <div class="all-the-skills">
-      
-      <!-- <section class="skill-row1">  -->
-        
-        <article class="skill row1 javascript">
-          <i class="fab fa-js fa-2x"></i>
-          <h6 class="skill-name">JAVASCRIPT</h6>
-          <p class="skills-blurb"></p>
-        </article>
-        
-        <article class="skill row1 html5">
-          <i class="fab fa-html5 fa-2x"></i>
-          <h6 class="skill-name">HTML5</h6>
-          <p class="skills-blurb"></p>
-        </article>
-        
-        <article class="skill row1 css3">
-          <i class="fab fa-css3-alt fa-2x"></i>
-          <h6 class="skill-name">CSS</h6>
-          <p class="skills-blurb"></p>
-        </article>
-        
-        <article class="skill row1 node">
-          <i class="fab fa-node-js fa-2x"></i>
-          <h6 class="skill-name">node.js</h6>
-          <p class="skills-blurb"></p>
-        </article>
-        
-        <article class="skill row1 react">
-          <i class="fab fa-react fa-2x"></i>
-          <h6 class="skill-name">React.js</h6>
-          <p class="skills-blurb"></p>
-        </article>
-      </div>
-      <!-- </section> -->
-      
-      <div class="all-the-skills2">
-  <!-- <section class="skill-row2">   -->
+
+  <div class="all-the-skills">
+
+    <article class="skill row1 javascript">
+      <span class="skill-hide"><i class="fab fa-js fa-2x"></i></span>
+      <h6 class="skill-hidden-name">JAVASCRIPT</h6>
+    </article>
+
+    <article class="skill row1 html5">
+      <span class="skill-hide"><i class="fab fa-html5 fa-2x"></i></span>
+      <h6 class="skill-hidden-name">HTML5</h6>
+    </article>
+
+    <article class="skill row1 css3">
+      <span class="skill-hide"><i class="fab fa-css3-alt fa-2x"></i></span>
+      <h6 class="skill-hidden-name">CSS</h6>
+    </article>
+
+    <article class="skill row1 node">
+      <span class="skill-hide"><i class="fab fa-node-js fa-2x"></i></span>
+      <h6 class="skill-hidden-name">Node.js</h6>
+    </article>
+
+    <article class="skill row1 react">
+      <span class="skill-hide"><i class="fab fa-react fa-2x"></i></span>
+      <h6 class="skill-hidden-name">React.js</h6>
+    </article>
+  </div>
+
+  <div class="all-the-skills2">
 
     <article class="skill row2 github">
-      <i class="fab fa-github fa-2x"></i>
-      <h6 class="skill-name">GitHub</h6>
-      <p class="skills-blurb"></p>
+      <span class="skill-hide"><i class="fab fa-github fa-2x"></i></span>
+        <h6 class="skill-hidden-name">GitHub</h6>
     </article>
-    
+
     <article class="skill row2 ruby">
-      <i class="fab fa-sketch fa-2x"></i>
-      <h6 class="skill-name">Ruby</h6>
-      <p class="skills-blurb"></p>
+      <span class="skill-hide"><i class="fab fa-sketch fa-2x"></i></span>
+      <h6 class="skill-hidden-name">Ruby</h6>
     </article>
 
     <article class="skill row2 postgresql">
-      <img class="postgresql-icon" src="./images/postgresql_white.png" height="62vh">
-      <h6 class="skill-name">posgreSQL</h6>
-      <p class="skills-blurb"></p>
+      <span class="skill-hide"><img class="postgresql-icon" src="./images/postgresql_white.png" height="70vh"></span>
+      <h6 class="skill-hidden-name">posgreSQL</h6>
     </article>
 
     <article class="skill row2 sql">
-      <img class="sql-icon" src="./images/sql_white.png" height="62vh">
-      <h6 class="skill-name">SQL</h6>
-      <p class="skills-blurb"></p>
+      <span class="skill-hide"><img class="sql-icon" src="./images/sql_white.png" height="62vh"></span>
+      <h6 class="skill-hidden-name">SQL</h6>
     </article>
-<!-- </section> -->
-</div>
+  </div>
 
-<footer>
-  <h1>FEET</h1>
-</footer>
+  <!-- ----------------------------------------------- -->
+  <!-- --------------- Contact Form ------------------ -->
+  <!-- ----------------------------------------------- -->
+
+  <section class="email-form">
+    <h2 class="email-form-header">Get in touch</h2>
+    <form method="post" action="https://formspree.io/xpzlzrgy" method="POST">
+      <div class="fields">
+        <div class="field half">
+          <label class="cadetblue-touch" for="name">Name
+          </label>
+          <input type="text" name="name" id="name" value="" />
+        </div>
+        <div class="field half">
+          <label class="cadetblue-touch" for="email">Email
+          </label>
+          <input type="email" name="email" id="email" value="" />
+        </div>
+        <div class="field">
+          <label class="cadetblue-touch" for="message">Message</label>
+          <textarea name="message" id="message" rows="6"></textarea>
+        </div>
+      </div>
+      <button class="actions special">
+        <input target="_blank" class="send-touch" type="submit" name="submit" id="submit" value="Send Message" />
+      </button>
+    </form>
+  </section>
+
+  <footer>
+    <h1>FEET</h1>
+  </footer>
 
 </body>
 
