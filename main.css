@@ -23,7 +23,6 @@ header {
     font-family: 'Fredericka the Great', cursive;
     /* font-family: 'Amatic SC', cursive; */
     font-size: 4.5em;
-    /* color: rgb(184, 169, 167); */
     color: white;
     text-align: center;
     margin-bottom: 0;
@@ -38,12 +37,13 @@ header {
     text-align: center;
   }
 
-  
+    /* ------------------------------- */
+    /* ----------- Skills ------------ */
+    /* ------------------------------- */
+
   .skills-header {
     background-color: rgba(95, 154, 156, .5);
     font-family: 'Amatic SC', cursive;
-    /* font-family: 'Reem Kufi', sans-serif; */
-    /* font-family: 'Fredericka the Great', cursive; */
     font-size: 6em;
     text-align: center;    
     color: cadetblue;
@@ -56,30 +56,13 @@ header {
     justify-content: center;
     display: grid;
     grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
-}
+  }
+
   .all-the-skills2 {
     background-color: rgba(95, 154, 156, .5);
     justify-content: center;
     display: grid;
     grid-template-columns: 14vw 14vw 14vw 14vw;
-}
-  
-  .skills-blurb {
-    padding: 1vh 0;
-  }
-  
-  .skill-hidden-name {
-    /* display: none; */
-    font-size: .5em;
-    /* color: rgb(255, 255, 255); */
-    color: rgba(95, 154, 156, .5);
-    padding-bottom: 8vh;
-    text-align: center;    
-    justify-self: center;
-  }
-
-  .skill-hidden-name:hover{
-    opacity:1;
   }
   
   .skill{
@@ -87,56 +70,161 @@ header {
     padding-bottom: 8vh;
   }
 
-  /* Below hides skills icons */
-  /* .skill-hide:hover{
-    display: none;
-  } */
+  .skill-hidden-name {
+    font-size: .5em;
+    color: rgba(95, 154, 156, .5);
+  }
 
-    .row1, .row2 {
-        width: 2vw;
-        font-family: 'Libre Franklin', sans-serif;
-        text-align: center;    
-        color: white;
-        font-size: 2em;
-        padding-top: 3vh;
-        /* grid-template-columns: 14vw 14vw 14vw 14vw 14vw; */
-      }
+  .js-name {
+    position: relative;
+    top: -20px;
+    left: -20px;
+  }
+
+  .html-name {
+    position: relative;
+    top: -20px;
+    left: -5px;
+  }
+
+  .css-name {
+    position: relative;
+    top: -20px;
+    left: 5px;
+  }
+
+  .node-name {
+    position: relative;
+    top: -20px;
+    left: 1px;
+  }
+
+  .react-name {
+    position: relative;
+    top: -20px;
+    left: 1px;
+  }
+
+  .github-name {
+    position: relative;
+    top: -20px;
+    left: 2px;
+  }
+
+  .ruby-name {
+    position: relative;
+    top: -20px;
+    left: 13px;
+  }
+
+  .postgres-name {
+    position: relative;
+    top: -25px;
+    left: -5px;
+  }
+
+  .sql-name {
+    position: relative;
+    top: -20px;
+    left: 7px;
+  }
+
+  .row1, .row2 {
+    width: 2vw;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 2em;
+    padding-top: 3vh;
+    }
+
+    /* ------------------------------- */
+    /* -------- Contact Form --------- */
+    /* ------------------------------- */
 
       .email-form {
-        height: 70vh;
+        font-family: 'Fredericka the Great', cursive;
+        height: 85vh;
         background-image: url('./images/florian-klauer-expanded.png') ;
-        background-position: center;
+        background-position: cover;
         background-repeat: no-repeat;
+        background-size: 100%;
+        opacity: 0.6;
         padding-left: 50vw;
-        font-size: 2em;
-        padding-top: 4vh;
+        font-size: 3em;
+        padding-top: 1vh;
         color:rgb(32, 45, 46);
-        font-family: 'Amatic SC', cursive;
         border: solid 2px lightgrey;
-      }
-
-      .email-form-header {
-        padding-top: 4vh;
-        color:cadetblue;
-        font-family: 'Amatic SC', cursive;
       }
       
-      .send-touch {
-        color: rgb(95, 129, 160);
-        font-family: 'Amatic SC', cursive;
-        border: solid 2px lightgrey;
+      .email-form-header {
+        font-family: 'Fredericka the Great', cursive;
+        padding-top: 2vh;
+        color:rgb(170, 127, 132);
       }
+      
+      
+      .fields {
+        display: grid;
+        grid-template-columns: 18vw 18vw;
+      }
+      
+      #name {
+        height: 6vh;
+        width: 16vw;
+        /* font-size: .4em; */
+      }
+      
+      #email {
+        height: 6vh;
+        width: 18vw;
+        /* font-size: .4em; */
+      }
+
+      .half {
+        padding-bottom: 4vh;
+      }
+      
+      #message {
+        margin-top: 4vh;
+        height: 20vh;
+        width: 30vw;
+        /* font-size: .4em; */
+      }
+      
+      .msg-touch {
+        margin-top: 40vh;
+        padding-top: 4vh;
+      }
+      
+      .send-touch-button {
+        font-family: 'Fredericka the Great', cursive;
+        color:rgb(32, 45, 46);
+        margin-top: 1vh;
+        height: 6vh;
+        width: 10vw;
+        font-size: .5em;
+        border-radius: 6px;
+      }
+
+      
+      /* -------------------------- */
+      /* --------- Footer --------- */
+      /* -------------------------- */
       
       footer {
         padding-top: 1vh;
         text-align: center;
         height: 6vh;
         font-family: 'Amatic SC', cursive;
-        text-align: center;
-        background-color: lightgrey;
         margin-top: 0;
+        background-color: rgba(95, 154, 156, .3);
         /* position: absolute;
         bottom: 0px; */
+      }
+      
+      .footer-icon {
+        padding: 1.5vh .75vw;
+        color: rgba(95, 158, 160, 0.507);
       }
 
 

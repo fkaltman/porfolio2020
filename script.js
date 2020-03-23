@@ -1,1 +1,2 @@
-<a href="#" onmouseover="getElementByClassName('fab').style='display:block'" onmouseout="getElementByClassName('fab').style='display:none'"></a>
+// {/* <p onmouseover="getElementByClassName('skill-hide').style='display:none'" onmouseout="getElementByClassName('skill-hide').style='display:block'"></p> */}
+
