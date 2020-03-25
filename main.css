@@ -43,7 +43,7 @@ header {
     /* ------------------------------- */
 
 .skills {
-  background-color: rgb(175, 206, 207);
+  background-color: rgb(198, 219, 219);
 }
 
   .skills-header {
@@ -137,6 +137,15 @@ header {
     color: white;
     font-size: 2em;
     padding-top: 3vh;
+  }
+
+    .works {
+      font-family: 'Amatic SC', cursive;
+      font-size: 6em;
+      text-align: center;    
+      color: cadetblue;
+      margin: 0;
+      padding: 6vh 0 6vh 0;
     }
 
     /* ------------------------------- */
@@ -151,7 +160,6 @@ header {
         background-position: 100% top;
         background-repeat: no-repeat;
         background-size: cover;
-        /* background-attachment: fixed; */
         opacity: 0.6;
         padding-left: 50vw;
         font-size: 2em;
@@ -162,7 +170,8 @@ header {
       
       .email-form-header {
         font-family: 'Fredericka the Great', cursive;
-        padding-top: 2vh;
+        padding-top: 8vh;
+        padding-bottom: 2vh;
         color:rgb(170, 127, 132);
       }
       
@@ -175,13 +184,11 @@ header {
       #name {
         height: 6vh;
         width: 16vw;
-        /* font-size: .4em; */
       }
       
       #email {
         height: 6vh;
         width: 18vw;
-        /* font-size: .4em; */
       }
 
       .half {
@@ -192,7 +199,6 @@ header {
         margin-top: 4vh;
         height: 20vh;
         width: 30vw;
-        /* font-size: .4em; */
       }
       
       .msg-touch {
@@ -222,7 +228,7 @@ header {
         font-family: 'Libre Franklin', sans-serif;
         margin-top: 0;
         background-color: rgb(204, 212, 212);
-        color: rgba(95, 158, 160, 0.507);
+        color: rgba(95, 158, 160, 0.5);
       }
       
       .footer-icon {
@@ -230,10 +236,10 @@ header {
       }
       
       .name-copyright {
-        /* background-color: rgba(95, 154, 156, .3); */
         color: grey;
-        font-size: 1.5em;
+        font-size: 1em;
         margin: 0;
+        padding-top: 1vh;
       }
 
 
