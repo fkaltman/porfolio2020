@@ -152,22 +152,48 @@ header {
       padding: 6vh 0 6vh 0;
     }
     
-    .project {
-      font-family: 'Amatic SC', cursive;
-      font-size: 4em;
-      color: cadetblue;
-      margin-bottom: 0;
+    .bean-project{
+      display: flex;
+      justify-content: center;
     }
     
-    .project-blurb {
+    .bean-screens {
+      display: inline-block;
+    }
+    
+    .modal-buttons {
+      display: flex;
+      justify-content: center;
+      
+    }
+    
+    .modal-button {
+      text-align: center;    
       font-family: 'Amatic SC', cursive;
       font-size: 2em;
       color: cadetblue;
-      margin-top: 0 auto 4vh auto;
+      border-radius: 5px;
+      margin: 5vh 3vw 2vh 3vw;
     }
 
-    .project-img {
-      
+    .swal-button--ok {
+      background: #0a0;
+  }
+    
+    .title {
+      font-family: 'Amatic SC', cursive;
+      font-size: 4em;
+      color: cadetblue;
+      margin: 0;
+      text-align: center;    
+    }
+    
+    .project-blurb {
+      text-align: center;    
+      font-family: 'Amatic SC', cursive;
+      font-size: 2em;
+      color: cadetblue;
+      margin: 0 auto 4vh auto;
     }
 
     /* ------------------------------- */

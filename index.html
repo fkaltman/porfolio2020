@@ -11,9 +11,10 @@
     href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Libre+Franklin|Reem+Kufi&display=swap"
     rel="stylesheet">
   <script type='text/javascript' src='script.js'></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>
 
-<body>
+<body> 
   <header>
     <h1 class="name-title">F R A N C I N E <br> A L T M A N </h1>
     <p class="main-subtitle">I am a web developer who like making things and sharing them with other people.</p>
@@ -83,9 +84,33 @@
   <!-- ---------------------------------- -->
 
 <h1 class="works">Work / Projects</h1>
-<h2 class="project">BEANsearch</h2>
-<h4 class="project-blurb">An app for finding delicious bean-centric recipes </h4>
-<img src="smiley.gif" alt="Smiley face" height="42" width="42">
+<div class="bean-project">
+<img class="bean-screens" src="./images/bean_iphone11.png" alt="App on iphone11" width="300">
+<img class="bean-screens" src="./images/bean2_iphone11.png" alt="App on iphone11" width="300">
+</div>
+<!-- <img class="bean-screens" src="./images/bean_macbook.png" alt="App on iphone11" width="800">
+<img class="bean-screens" src="./images/bean_ipad.png" alt="App on iphone11" width=300> -->
+<section class="modal-buttons">
+<button class="modal-button" onclick="Swal.fire({
+  title: 'DESKTOP',
+  // text: 'Modal with a custom image.',
+  imageUrl: './images/bean_macbook.png',
+  imageWidth: 600,
+  imageHeight: 300,
+  imageAlt: 'Desk top view of the BEANsearch app',
+})"> See Desktop View</button>
+<button class="modal-button" onclick="Swal.fire({
+  title: 'TABLET VIEW',
+  // text: 'Modal with a custom image.',
+  imageUrl: './images/bean_ipad.png',
+  imageWidth: 300,
+  imageHeight: 400,
+  imageAlt: 'Desk top view of the BEANsearch app',
+})"> See Tablet View</button>
+</section>
+<h2 class="title">BEANsearch</h2>
+<!-- <img class="small-bean" src="./images/trans_bean.png" alt="Cartoon bean" width="62"> -->
+<h4 class="project-blurb">An app for finding recipes </h4>
 
   <!-- ----------------------------------------------- -->
   <!-- --------------- Contact Form ------------------ -->
