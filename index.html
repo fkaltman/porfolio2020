@@ -84,33 +84,36 @@
   <!-- ---------------------------------- -->
 
 <h1 class="works">Work / Projects</h1>
-<div class="bean-project">
-<img class="bean-screens" src="./images/bean_iphone11.png" alt="App on iphone11" width="300">
-<img class="bean-screens" src="./images/bean2_iphone11.png" alt="App on iphone11" width="300">
-</div>
-<!-- <img class="bean-screens" src="./images/bean_macbook.png" alt="App on iphone11" width="800">
-<img class="bean-screens" src="./images/bean_ipad.png" alt="App on iphone11" width=300> -->
-<section class="modal-buttons">
-<button class="modal-button" onclick="Swal.fire({
-  title: 'DESKTOP',
-  // text: 'Modal with a custom image.',
-  imageUrl: './images/bean_macbook.png',
-  imageWidth: 600,
-  imageHeight: 300,
-  imageAlt: 'Desk top view of the BEANsearch app',
-})"> See Desktop View</button>
-<button class="modal-button" onclick="Swal.fire({
+<section class="single-project">
+  <h2 class="title">BEANsearch</h2>
+  <h4 class="project-blurb">An app for finding recipes featuring beans </h4>
+  <div class="bean-project">
+    <img class="bean-screens" src="./images/bean_iphone11.png" alt="App on iphone11" width="300">
+    <img class="bean-screens" src="./images/bean2_iphone11.png" alt="App on iphone11" width="300">
+  </div>
+  <div class="modal-buttons">
+    <button class="modal-button" onclick="Swal.fire({
+      title: 'DESKTOP',
+      imageUrl: './images/bean_macbook.png',
+      imageWidth: 600,
+      imageHeight: 300,
+      imageAlt: 'Desk top view of the BEANsearch app',
+      confirmButtonColor: '#9fc1c2',
+      confirmButtonText: 'close'
+    })"> Desktop View</button>
+<button class="modal-button second-button" onclick="Swal.fire({
   title: 'TABLET VIEW',
-  // text: 'Modal with a custom image.',
   imageUrl: './images/bean_ipad.png',
   imageWidth: 300,
   imageHeight: 400,
   imageAlt: 'Desk top view of the BEANsearch app',
-})"> See Tablet View</button>
+  confirmButtonColor: '#9fc1c2',
+  confirmButtonText: 'close'
+})"> Tablet View</button>
+<a href="http://beansearch.surge.sh" target="_blank" class="site">beansearch.surge.sh</a>
+<a href ="https://github.com/fkaltman/beanSEARCH" target="_blank" class="view-sourcecode"> View source code <span class="source-icon"><i class="fab fa-github"></i></span></a>
+</div>
 </section>
-<h2 class="title">BEANsearch</h2>
-<!-- <img class="small-bean" src="./images/trans_bean.png" alt="Cartoon bean" width="62"> -->
-<h4 class="project-blurb">An app for finding recipes </h4>
 
   <!-- ----------------------------------------------- -->
   <!-- --------------- Contact Form ------------------ -->

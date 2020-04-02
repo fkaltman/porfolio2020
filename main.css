@@ -147,9 +147,14 @@ header {
       font-family: 'Amatic SC', cursive;
       font-size: 6em;
       text-align: center;    
-      color: cadetblue;
+      color: rgb(159, 193, 194);
       margin: 0;
       padding: 6vh 0 6vh 0;
+    }
+
+    .single-project {
+      background-color: rgb(198, 219, 219);
+      padding-top: 6vh;
     }
     
     .bean-project{
@@ -163,26 +168,31 @@ header {
     
     .modal-buttons {
       display: flex;
-      justify-content: center;
-      
+      flex-direction: column;
+      align-items: center; 
     }
     
     .modal-button {
-      text-align: center;    
       font-family: 'Amatic SC', cursive;
       font-size: 2em;
       color: cadetblue;
       border-radius: 5px;
-      margin: 5vh 3vw 2vh 3vw;
+      margin-top: 1.5vh;
+      width: 9vw;
     }
 
-    .swal-button--ok {
-      background: #0a0;
-  }
+    .second-button {
+      margin-bottom: 3vh;
+    }
+
+    .swal-text {
+      font-family: 'Amatic SC', cursive;
+      color:salmon;
+    }
     
     .title {
       font-family: 'Amatic SC', cursive;
-      font-size: 4em;
+      font-size: 6em;
       color: cadetblue;
       margin: 0;
       text-align: center;    
@@ -195,6 +205,22 @@ header {
       color: cadetblue;
       margin: 0 auto 4vh auto;
     }
+
+    .site {
+      font-family: 'Amatic SC', cursive;
+      font-size: 4em;
+      color: cadetblue;
+      text-decoration: none;
+    }
+
+    .view-sourcecode {
+      font-family: 'Amatic SC', cursive;
+      font-size: 1.75em;
+      color: cadetblue;
+      margin: 1vh auto 3vh auto;
+      text-decoration: none;
+    }
+
 
     /* ------------------------------- */
     /* -------- Contact Form --------- */
