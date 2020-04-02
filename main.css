@@ -157,7 +157,7 @@ header {
       padding-top: 6vh;
     }
     
-    .bean-project{
+    .bean-project, .space-project {
       display: flex;
       justify-content: center;
     }
@@ -217,10 +217,23 @@ header {
       font-family: 'Amatic SC', cursive;
       font-size: 1.75em;
       color: cadetblue;
-      margin: 1vh auto 3vh auto;
+      margin: 1vh auto 6vh auto;
       text-decoration: none;
     }
 
+    hr {
+      border: 1px solid rgb(165, 188, 214);
+      margin:0;
+    }
+
+    .space-site {
+      font-size: 3em;
+      margin: 4vh auto;
+    }
+
+    .space-button {
+      width: 12vw;
+    }
 
     /* ------------------------------- */
     /* -------- Contact Form --------- */
