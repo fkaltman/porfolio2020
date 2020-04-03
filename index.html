@@ -7,9 +7,7 @@
   <link rel="stylesheet" type="text/css" href="main.css" />
   <script src="https://kit.fontawesome.com/d0dff7d6ab.js" crossorigin="anonymous"></script>
   <link rel="shortcut icon" href="./images/fa_pink_orange2.png" />
-  <link
-    href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Libre+Franklin|Reem+Kufi&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Fredericka+the+Great|Libre+Franklin|Roboto&display=swap" rel="stylesheet">
   <script type='text/javascript' src='script.js'></script>
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
 </head>
@@ -25,7 +23,7 @@
   <!-- ---------------------------------- -->
 
   <section class="skills">
-    <h2 class="skills-header">S K I L L S</h2>
+    <h2 class="skills-header">s k i l l s</h2>
     <div class="all-the-skills">
 
       <article class="skill row1 javascript">
@@ -80,10 +78,32 @@
 
 
   <!-- ---------------------------------- -->
-  <!-- ------------WORKS---------------- -->
+  <!-- ------------PROJECTS---------------- -->
   <!-- ---------------------------------- -->
 
-<h1 class="works">Work / Projects</h1>
+<h1 class="projects">p r o j e c t s</h1>
+<section class="single-project">
+  <h2 class="title">Website Redesign</h2>
+  <h4 class="project-blurb">Redesigned a ten year old website, built on client's CMS. </h4>
+  <div class="space-project">
+    <img class="space-screens" src="./images/new_space_comp_macbook.png" alt="App on iphone11" width="1000">
+  </div>
+  <div class="modal-buttons">
+<button class="modal-button space-button" onclick="Swal.fire({
+  title: 'Original landing page',
+  imageUrl: './images/old_space_comp_macbook.png',
+  imageWidth: 800,
+  imageHeight: 550,
+  width: 1200,
+  height: 1000,
+  imageAlt: 'Original site\'s landing page',
+  confirmButtonColor: '#9fc1c2',
+  confirmButtonText: 'close'
+})"> View old landing page</button>
+<a href="https://www.spacecomposer.com" target="_blank" class="site space-site">www.spacecomposer.com</a>
+</div>
+</section>
+<hr>
 <section class="single-project">
   <h2 class="title">BEANsearch</h2>
   <h4 class="project-blurb">An app for finding recipes featuring beans </h4>
@@ -114,27 +134,35 @@
 <a href ="https://github.com/fkaltman/beanSEARCH" target="_blank" class="view-sourcecode"> View source code <span class="source-icon"><i class="fab fa-github"></i></span></a>
 </div>
 </section>
-
 <hr>
 <section class="single-project">
-  <h2 class="title">Website redesign for Space Composer</h2>
-  <h4 class="project-blurb">Redesigned a ten year old website on client's Vistaprint CMS. </h4>
-  <div class="space-project">
-    <img class="space-screens" src="./images/new_space_comp_macbook.png" alt="App on iphone11" width="1000">
+  <h2 class="title">Setlist Generator</h2>
+  <h4 class="project-blurb">An fullstack app that generates random setlists from a masterlist database on the backend  </h4>
+  <div class="bean-project">
+    <img class="bean-screens" src="./images/bean_iphone11.png" alt="App on iphone11" width="300">
+    <img class="bean-screens" src="./images/bean2_iphone11.png" alt="App on iphone11" width="300">
   </div>
   <div class="modal-buttons">
-<button class="modal-button space-button" onclick="Swal.fire({
-  title: 'Original landing page',
-  imageUrl: './images/old_space_comp_macbook.png',
-  imageWidth: 800,
-  imageHeight: 550,
-  width: 1200,
-  height: 1000,
-  imageAlt: 'Original site\'s landing page',
+    <button class="modal-button" onclick="Swal.fire({
+      title: 'DESKTOP',
+      imageUrl: './images/bean_macbook.png',
+      imageWidth: 600,
+      imageHeight: 300,
+      imageAlt: 'Desk top view of the BEANsearch app',
+      confirmButtonColor: '#9fc1c2',
+      confirmButtonText: 'close'
+    })"> Desktop View</button>
+<button class="modal-button second-button" onclick="Swal.fire({
+  title: 'TABLET VIEW',
+  imageUrl: './images/bean_ipad.png',
+  imageWidth: 300,
+  imageHeight: 400,
+  imageAlt: 'Desk top view of the BEANsearch app',
   confirmButtonColor: '#9fc1c2',
   confirmButtonText: 'close'
-})"> View old landing page</button>
-<a href="www.spacecomposer.com" target="_blank" class="site space-site">www.spacecomposer.com</a>
+})"> Tablet View</button>
+<a href="http://beansearch.surge.sh" target="_blank" class="site">beansearch.surge.sh</a>
+<a href ="https://github.com/fkaltman/beanSEARCH" target="_blank" class="view-sourcecode"> View source code <span class="source-icon"><i class="fab fa-github"></i></span></a>
 </div>
 </section>
 
