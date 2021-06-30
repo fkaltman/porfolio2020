@@ -1,47 +1,73 @@
-/* font-family: 'Roboto', sans-serif;
-font-family: 'Fredericka the Great', cursive;
-font-family: 'Amatic SC', cursive;
-font-family: 'Libre Franklin', sans-serif; */
-
 body {
-  margin: 0px;
-  min-height: 100%;
-  background-color: rgb(204, 212, 212);
+  overflow-x: hidden;
+  margin: 0; 
+  padding: 0; 
+  font-size: 100%; 
+  list-style: none; 
+  border: 0;
 }
 
 html { 
-  height: 100%;
   scroll-behavior: smooth;
+  margin: 0; 
+  padding: 0; 
+  font-size: 100%; 
+  list-style: none; 
+  border: 0;
 }
 
 header {
-  height: 85vh;
-  background: linear-gradient(
-    rgba(182, 197, 198, 0.4),
-    rgba(231, 249, 250, 0.4)
-    ), url('./images/hamza-tighza--EQgtTaeNwg-unsplash.jpg');
-    background-size: cover;
-    /* position: relative; */
+  position: relative;
+}
+
+img, h1, h2, h3, p {
+  margin: 0; 
+  padding: 0; 
+  font-size: 100%; 
+  list-style: none; 
+  border: 0;
   }
 
-  .name-title {
-    /* font-family: 'Libre Franklin', sans-serif; */
+  .hero-image img {
+    width: 100vw;
+    opacity: 0.9;
+  }
+  
+  .name-francine {
     font-family: 'Fredericka the Great', cursive;
-    /* font-family: 'Amatic SC', cursive; */
-    font-size: 4.5em;
-    color: white;
-    text-align: center;
-    margin-bottom: 0;
-    padding-top: 60vh;
-    /* bottom: 0;
-    position:absolute; */
+    color: rgb(132, 153, 145);
+    color: floralwhite;
+    font-size: 200%;
+    margin-left: 30vw;
+    position: relative;
+    /* right: 16vw; */
+    bottom: 10vh;
+  }
+  
+  .name-altman {
+    /* color: rgb(131, 189, 196); */
+    /* color: rgb(240, 143, 143);
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 200%;
+    margin-left: 3vw; */
+    /* position: relative; */
+    /* right: 80vw; */
   }
   
   .main-subtitle {
     font-family: 'Libre Franklin', sans-serif;
-    color: rgb(24, 22, 24);
-    text-align: center;
+    /* margin-top: 3vw; */
+    font-size: 2em;
+    color: rgb(95, 126, 96);
+    text-align: right;
+    margin-bottom: 10px;
+    margin-right: 6px;
   }
+
+  /* .hide-br {
+    display:none;
+  } */
+
 
     /* ------------------------------- */
     /* ----------- Skills ------------ */
@@ -53,9 +79,8 @@ header {
 
   .skills-header {
     font-family: 'Roboto', sans-serif;
-    font-size: 3em;
-    /* text-align: center;     */
-    color: cadetblue;
+    font-size: 1em;
+    color: rgb(67, 111, 112);
     margin: 0;
     padding: 6vh 0 6vh 3vw;
   }
@@ -66,11 +91,13 @@ header {
     grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
   }
 
-  .all-the-skills2 {
+  /* below used when uneven number of skills */
+
+  /* .all-the-skills2 {
     justify-content: center;
     display: grid;
     grid-template-columns: 14vw 14vw 14vw 14vw;
-  }
+  } */
   
   .skill{
     justify-self: center;
@@ -136,6 +163,19 @@ header {
     left: 7px;
   }
 
+  .mongo-name {
+    position: relative;
+    top: -30px;
+    left: 7px;
+  }
+ 
+  .ejs-name {
+    position: relative;
+    top: -30px;
+    left: 36px;
+  }
+
+
   .row1, .row2 {
     width: 2vw;
     font-family: 'Libre Franklin', sans-serif;
@@ -148,29 +188,30 @@ header {
   /* ----------- Work / Projects ------------ */
   /* ---------------------------------------- */
 
-    .projects {
-      font-family: 'Roboto', sans-serif;
-      font-size: 3em;
-      /* text-align: center;     */
-      color: cadetblue;
-      margin: 0;
-      padding: 6vh 0 6vh 3vw;
-    }
-  
+.btg-screens, .space-screens {
+  width: 60vw;
+} 
 
+.bean-screens {
+  display: inline-block;
+  width: 20vw;
+}
+  
     .single-project {
       background-color: rgb(198, 219, 219);
       padding-top: 6vh;
     }
     
-    .bean-project, .space-project {
+    .bean-project, .space-project, .btg-project {
       display: flex;
       justify-content: center;
     }
     
-    .bean-screens {
-      display: inline-block;
+   .btg-project {
+      display: flex;
+      flex-wrap: wrap;
     }
+    
     
     .modal-buttons {
       display: flex;
@@ -182,11 +223,11 @@ header {
     .modal-button {
       font-family: 'Roboto', sans-serif;
       font-size: 1em;
-      color: cadetblue;
+      color: rgb(67, 111, 112);
       border-radius: 5px;
       margin-top: 1vh;
-      width: 12vw;
-      height: 3vh;
+      width: 230px;
+      height: 4vh;
     }
 
     .second-button {
@@ -197,37 +238,61 @@ header {
       font-family: 'Roboto', sans-serif;
       color:salmon;
     }
+
+    .projects-title {
+      font-family: 'Roboto', sans-serif;
+      font-size: 1.4em;
+      text-align: center;    
+      /* color: rgb(67, 111, 112); */
+      color: darkgrey;
+      margin-left: 3vw;
+      padding: 3vh 0 0 0;
+    }
     
     .title {
       font-family: 'Roboto', sans-serif;
-      font-size: 3em;
-      color: cadetblue;
-      margin: 4vh 0 0 0;
+      font-size: 1.8em;
+      font-weight: 900px;
+      color: rgb(101, 119, 158);
+      margin: 4vh 0;
       text-align: center;    
     }
-    
+   
     .project-blurb {
       text-align: center;    
       font-family: 'Roboto', sans-serif;
-      font-size: 1.5em;
-      color: cadetblue;
+      font-size: 1.4em;
+      font-weight:800;
+      color: rgb(95, 126, 96);
       margin: 1vh auto 4vh auto;
+      max-width: 60vw;
     }
-
+    
     .site {
       font-family: 'Roboto', sans-serif;
       font-size: 2em;
-      color: cadetblue;
+      color: #65779e;
       text-decoration: none;
+      display: inline-flex;
     }
 
-    .view-sourcecode {
-      font-family: 'Roboto', sans-serif;
+    /*  ===== start icons ===== */
+
+    .tools {
+      font-size: 1em;
+      color: rgb(95, 126, 96);
+      margin: 4vh 0 2vh 0;
+      text-align: center;    
+    }
+
+    .github {
       font-size: 1.2em;
-      color: cadetblue;
+      color: rgb(67, 111, 112);
       margin: 2vh auto 6vh auto;
       text-decoration: none;
     }
+
+    /*  ===== end icons ===== */
 
     hr {
       border: 1px solid rgb(165, 188, 214);
@@ -238,9 +303,51 @@ header {
       font-size: 1.5em;
       margin: 4vh auto;
     }
+    
+    .btg-site {
+      font-size: 1.5em;
+      margin: 0vh auto 2vh auto;
+    }
 
     .space-button {
-      width: 16vw;
+      width:z 230px;
+    }
+    
+    .btg-button {
+      margin-bottom: 2vh;
+      padding: 4px;
+    }
+
+    .language-option {
+      display: inline-flex;
+      font-family: 'Roboto', sans-serif;
+      color: rgb(67, 111, 112);
+      margin-bottom: 10px;
+    }
+    
+    .language2 {
+      margin-bottom: 40px;
+    }
+
+    .setlist-project, .andrew-project {
+      display:flex;
+      justify-content: center;      
+    }
+    
+    .setlist-screens {
+      width:24vw;
+    }
+   
+    .andrew-screens {
+      width:40vw;
+    }
+    
+    .middle-screen, .andrew-second-screen {
+      padding: 0 1vw;
+    }
+
+    .and  {
+      font-size: 30px;
     }
 
     /* ------------------------------- */
@@ -267,7 +374,7 @@ header {
         font-family: 'Fredericka the Great', cursive;
         padding-top: 8vh;
         padding-bottom: 2vh;
-        color:rgb(170, 127, 132);
+        color:rgb(99, 53, 58);
       }
       
       
@@ -306,7 +413,7 @@ header {
         color:rgb(32, 45, 46);
         margin-top: 1vh;
         height: 6vh;
-        width: 10vw;
+        /* width: 250px; */
         font-size: .75em;
         border-radius: 6px;
       }
@@ -338,3 +445,80 @@ header {
       }
 
 
+
+      /*  ============== MQ ================ */
+
+
+      @media only screen and (max-width: 767px) {
+
+   .hide-br {
+     display:none;
+   }
+
+   .name-francine {
+    font-family: 'Fredericka the Great', cursive;
+    font-size: 16px;
+    margin-left: 52vw;
+    bottom: 6.6vh;
+  }
+
+  .main-subtitle {
+    font-size: 1em;
+   }
+
+   .projects {
+    font-size: 1em;
+  }
+
+  .single-project {
+    padding-top: 2vh;
+  }
+
+  .title {
+    margin: 4vh 0vw;
+  }
+
+  .project-blurb {
+    max-width: 88vw;
+    font-size: 1em;
+  }
+
+  .site {
+    font-size: 1em;
+  }
+  
+  .title {
+    font-size: 1.25em;
+  }
+
+  .modal-button {
+    height: 6vh;
+  }
+
+  .setlist-screens {
+    width: 60vw;
+    margin-left: 20%;
+  }
+ 
+  .andrew-screens, .btg-screens, .space-screens {
+    width: 90vw;
+    margin-left: 0%;
+  }
+  
+  .andrew-screens {
+    margin-left: 5.5%;
+  }
+  
+  .setlist-project, .andrew-project {
+    flex-direction: column;
+  }
+
+  .middle-screen, .andrew-second-screen {
+    padding: 10px 0 10px 0;
+  }
+  .bean-screens {
+    width: 46vw;
+  }
+
+
+}
