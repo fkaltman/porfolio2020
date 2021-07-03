@@ -1,18 +1,18 @@
 body {
   overflow-x: hidden;
-  margin: 0; 
-  padding: 0; 
-  font-size: 100%; 
-  list-style: none; 
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  list-style: none;
   border: 0;
 }
 
-html { 
+html {
   scroll-behavior: smooth;
-  margin: 0; 
-  padding: 0; 
-  font-size: 100%; 
-  list-style: none; 
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  list-style: none;
   border: 0;
 }
 
@@ -20,443 +20,463 @@ header {
   position: relative;
 }
 
-img, h1, h2, h3, p {
-  margin: 0; 
-  padding: 0; 
-  font-size: 100%; 
-  list-style: none; 
+img,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  list-style: none;
   border: 0;
-  }
+}
 
-  .hero-image img {
-    width: 100vw;
-    opacity: 0.9;
-  }
-  
-  .name-francine {
-    font-family: 'Fredericka the Great', cursive;
-    color: rgb(132, 153, 145);
-    color: floralwhite;
-    font-size: 200%;
-    margin-left: 30vw;
-    position: relative;
-    /* right: 16vw; */
-    bottom: 10vh;
-  }
-  
-  .name-altman {
-    /* color: rgb(131, 189, 196); */
-    /* color: rgb(240, 143, 143);
+.hero-image img {
+  width: 100vw;
+  opacity: 0.9;
+}
+
+.name-francine {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(132, 153, 145);
+  color: floralwhite;
+  font-size: 200%;
+  margin-left: 30vw;
+  position: relative;
+  /* right: 16vw; */
+  bottom: 10vh;
+}
+
+.name-altman {
+  /* color: rgb(131, 189, 196); */
+  /* color: rgb(240, 143, 143);
     font-family: 'Fredericka the Great', cursive;
     font-size: 200%;
     margin-left: 3vw; */
-    /* position: relative; */
-    /* right: 80vw; */
-  }
-  
-  .main-subtitle {
-    font-family: 'Libre Franklin', sans-serif;
-    /* margin-top: 3vw; */
-    font-size: 2em;
-    color: rgb(95, 126, 96);
-    text-align: right;
-    margin-bottom: 10px;
-    margin-right: 6px;
-  }
+  /* position: relative; */
+  /* right: 80vw; */
+}
 
-  /* .hide-br {
+.main-subtitle {
+  font-family: "Libre Franklin", sans-serif;
+  /* margin-top: 3vw; */
+  font-size: 2em;
+  color: rgb(95, 126, 96);
+  text-align: right;
+  margin-bottom: 10px;
+  margin-right: 6px;
+}
+
+/* .hide-br {
     display:none;
   } */
 
-
-    /* ------------------------------- */
-    /* ----------- Skills ------------ */
-    /* ------------------------------- */
+/* ------------------------------- */
+/* ----------- Skills ------------ */
+/* ------------------------------- */
 
 .skills {
   background-color: rgb(198, 219, 219);
 }
 
-  .skills-header {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1em;
-    color: rgb(67, 111, 112);
-    margin: 0;
-    padding: 6vh 0 6vh 3vw;
-  }
-  
-  .all-the-skills {
-    justify-content: center;
-    display: grid;
-    grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
-  }
+.skills-header {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: rgb(67, 111, 112);
+  margin: 0;
+  padding: 6vh 0 6vh 3vw;
+}
 
-  /* below used when uneven number of skills */
+.all-the-skills {
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
+}
 
-  /* .all-the-skills2 {
+/* below used when uneven number of skills */
+
+/* .all-the-skills2 {
     justify-content: center;
     display: grid;
     grid-template-columns: 14vw 14vw 14vw 14vw;
   } */
-  
-  .skill{
-    justify-self: center;
-    padding-bottom: 8vh;
-  }
 
-  .skill-hidden-name {
-    font-size: .5em;
-    color: rgba(95, 154, 156, .5);
-  }
+.skill {
+  justify-self: center;
+  padding-bottom: 8vh;
+}
 
-  .js-name {
-    position: relative;
-    top: -20px;
-    left: -20px;
-  }
+.skill-hidden-name {
+  font-size: 0.5em;
+  color: rgba(95, 154, 156, 0.5);
+}
 
-  .html-name {
-    position: relative;
-    top: -20px;
-    left: -5px;
-  }
+.js-name {
+  position: relative;
+  top: -20px;
+  left: -20px;
+}
 
-  .css-name {
-    position: relative;
-    top: -20px;
-    left: 5px;
-  }
+.html-name {
+  position: relative;
+  top: -20px;
+  left: -5px;
+}
 
-  .node-name {
-    position: relative;
-    top: -20px;
-    left: 1px;
-  }
+.css-name {
+  position: relative;
+  top: -20px;
+  left: 5px;
+}
 
-  .react-name {
-    position: relative;
-    top: -20px;
-    left: 1px;
-  }
+.node-name {
+  position: relative;
+  top: -20px;
+  left: 1px;
+}
 
-  .github-name {
-    position: relative;
-    top: -20px;
-    left: 2px;
-  }
+.react-name {
+  position: relative;
+  top: -20px;
+  left: 1px;
+}
 
-  .ruby-name {
-    position: relative;
-    top: -20px;
-    left: 13px;
-  }
+.github-name {
+  position: relative;
+  top: -20px;
+  left: 2px;
+}
 
-  .postgres-name {
-    position: relative;
-    top: -25px;
-    left: -5px;
-  }
+.ruby-name {
+  position: relative;
+  top: -20px;
+  left: 13px;
+}
 
-  .sql-name {
-    position: relative;
-    top: -20px;
-    left: 7px;
-  }
+.postgres-name {
+  position: relative;
+  top: -25px;
+  left: -5px;
+}
 
-  .mongo-name {
-    position: relative;
-    top: -30px;
-    left: 7px;
-  }
- 
-  .ejs-name {
-    position: relative;
-    top: -30px;
-    left: 36px;
-  }
+.sql-name {
+  position: relative;
+  top: -20px;
+  left: 7px;
+}
 
+.mongo-name {
+  position: relative;
+  top: -30px;
+  left: 7px;
+}
 
-  .row1, .row2 {
-    width: 2vw;
-    font-family: 'Libre Franklin', sans-serif;
-    color: white;
-    font-size: 2em;
-    padding-top: 3vh;
-  }
+.ejs-name {
+  position: relative;
+  top: -30px;
+  left: 36px;
+}
 
-  /* ---------------------------------------- */
-  /* ----------- Work / Projects ------------ */
-  /* ---------------------------------------- */
+.row1,
+.row2 {
+  width: 2vw;
+  font-family: "Libre Franklin", sans-serif;
+  color: white;
+  font-size: 2em;
+  padding-top: 3vh;
+}
 
-.btg-screens, .space-screens {
+/* ---------------------------------------- */
+/* ----------- Work / Projects ------------ */
+/* ---------------------------------------- */
+
+.btg-screens,
+.space-screens {
   width: 60vw;
-} 
+}
 
 .bean-screens {
   display: inline-block;
   width: 20vw;
 }
-  
-    .single-project {
-      background-color: rgb(198, 219, 219);
-      padding-top: 6vh;
-    }
-    
-    .bean-project, .space-project, .btg-project {
-      display: flex;
-      justify-content: center;
-    }
-    
-   .btg-project {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
-    
-    .modal-buttons {
-      display: flex;
-      flex-direction: column;
-      align-items: center; 
-      margin-top: 2vh;
-    }
-    
-    .modal-button {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1em;
-      color: rgb(67, 111, 112);
-      border-radius: 5px;
-      margin-top: 1vh;
-      width: 230px;
-      height: 4vh;
-    }
 
-    .second-button {
-      margin-bottom: 3vh;
-    }
+.single-project {
+  background-color: rgb(198, 219, 219);
+  padding-top: 6vh;
+}
 
-    .swal-text {
-      font-family: 'Roboto', sans-serif;
-      color:salmon;
-    }
+.bean-project,
+.space-project,
+.btg-project {
+  display: flex;
+  justify-content: center;
+}
 
-    .projects-title {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.4em;
-      text-align: center;    
-      /* color: rgb(67, 111, 112); */
-      color: darkgrey;
-      margin-left: 3vw;
-      padding: 3vh 0 0 0;
-    }
-    
-    .title {
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.8em;
-      font-weight: 900px;
-      color: rgb(101, 119, 158);
-      margin: 4vh 0;
-      text-align: center;    
-    }
-   
-    .project-blurb {
-      text-align: center;    
-      font-family: 'Roboto', sans-serif;
-      font-size: 1.4em;
-      font-weight:800;
-      color: rgb(95, 126, 96);
-      margin: 1vh auto 4vh auto;
-      max-width: 60vw;
-    }
-    
-    .site {
-      font-family: 'Roboto', sans-serif;
-      font-size: 2em;
-      color: #65779e;
-      text-decoration: none;
-      display: inline-flex;
-    }
+.btg-project {
+  display: flex;
+  flex-wrap: wrap;
+}
 
-    /*  ===== start icons ===== */
+.modal-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+}
 
-    .tools {
-      font-size: 1em;
-      color: rgb(95, 126, 96);
-      margin: 4vh 0 2vh 0;
-      text-align: center;    
-    }
+.modal-button {
+  font-family: "Roboto", sans-serif;
+  font-size: 1em;
+  color: rgb(67, 111, 112);
+  border-radius: 5px;
+  margin-top: 1vh;
+  width: 230px;
+  height: 4vh;
+}
 
-    .github {
-      font-size: 1.2em;
-      color: rgb(67, 111, 112);
-      margin: 2vh auto 6vh auto;
-      text-decoration: none;
-    }
+.second-button {
+  margin-bottom: 3vh;
+}
 
-    /*  ===== end icons ===== */
+.swal-text {
+  font-family: "Roboto", sans-serif;
+  color: salmon;
+}
 
-    hr {
-      border: 1px solid rgb(165, 188, 214);
-      margin:0;
-    }
+.projects-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
+  text-align: center;
+  /* color: rgb(67, 111, 112); */
+  color: darkgrey;
+  margin-left: 3vw;
+  padding: 3vh 0 0 0;
+}
 
-    .space-site {
-      font-size: 1.5em;
-      margin: 4vh auto;
-    }
-    
-    .btg-site {
-      font-size: 1.5em;
-      margin: 0vh auto 2vh auto;
-    }
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.8em;
+  font-weight: 900px;
+  color: rgb(101, 119, 158);
+  margin: 4vh 0;
+  text-align: center;
+}
 
-    .space-button {
-      width:z 230px;
-    }
-    
-    .btg-button {
-      margin-bottom: 2vh;
-      padding: 4px;
-    }
+.project-blurb {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-size: 1.4em;
+  font-weight: 800;
+  color: rgb(95, 126, 96);
+  margin: 1vh auto 4vh auto;
+  max-width: 60vw;
+}
 
-    .language-option {
-      display: inline-flex;
-      font-family: 'Roboto', sans-serif;
-      color: rgb(67, 111, 112);
-      margin-bottom: 10px;
-    }
-    
-    .language2 {
-      margin-bottom: 40px;
-    }
+.site {
+  font-family: "Roboto", sans-serif;
+  font-size: 2em;
+  color: #65779e;
+  text-decoration: none;
+  display: inline-flex;
+}
 
-    .setlist-project, .andrew-project {
-      display:flex;
-      justify-content: center;      
-    }
-    
-    .setlist-screens {
-      width:24vw;
-    }
-   
-    .andrew-screens {
-      width:40vw;
-    }
-    
-    .middle-screen, .andrew-second-screen {
-      padding: 0 1vw;
-    }
+/*  ===== start icons ===== */
 
-    .and  {
-      font-size: 30px;
-    }
+.tools {
+  display: flex;
+  justify-content: center;
+  /* background-color: rgb(198, 219, 219); */
+  background-color: rgba(255, 255, 255, 0.6);
+  color: rgb(95, 126, 96);
+  text-align: center;
+  padding: 0.8vh 2vw;
+  margin: 2vh auto 2vh auto;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 3px;
+}
 
-    /* ------------------------------- */
-    /* -------- Contact Form --------- */
-    /* ------------------------------- */
+.tools-text {
+  display: none;
+}
 
-      .email-form {
-        font-family: 'Fredericka the Great', cursive;
-        height: 85vh;
-        min-height:310px;
-        background-image: url('./images/florian-klauer-expanded.png') ;
-        background-position: 100% top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        opacity: 0.6;
-        padding-left: 50vw;
-        font-size: 2em;
-        padding-top: 1vh;
-        color:rgb(32, 45, 46);
-        border: solid 2px lightgrey;
-      }
-      
-      .email-form-header {
-        font-family: 'Fredericka the Great', cursive;
-        padding-top: 8vh;
-        padding-bottom: 2vh;
-        color:rgb(99, 53, 58);
-      }
-      
-      
-      .fields {
-        display: grid;
-        grid-template-columns: 18vw 18vw;
-      }
-      
-      #name {
-        height: 6vh;
-        width: 16vw;
-      }
-      
-      #email {
-        height: 6vh;
-        width: 18vw;
-      }
+.github {
+  font-size: 1.2em;
+  color: rgb(67, 111, 112);
+  margin: 2vh auto 6vh auto;
+  text-decoration: none;
+}
 
-      .half {
-        padding-bottom: 4vh;
-      }
-      
-      #message {
-        margin-top: 4vh;
-        height: 20vh;
-        width: 30vw;
-      }
-      
-      .msg-touch {
-        margin-top: 40vh;
-        padding-top: 4vh;
-      }
-      
-      .send-touch-button {
-        font-family: 'Fredericka the Great', cursive;
-        color:rgb(32, 45, 46);
-        margin-top: 1vh;
-        height: 6vh;
-        /* width: 250px; */
-        font-size: .75em;
-        border-radius: 6px;
-      }
-      
-      
-      /* -------------------------- */
-      /* --------- Footer --------- */
-      /* -------------------------- */
-      
-      footer {
-        padding-top: 1vh;
-        text-align: center;
-        height: 6vh;
-        font-family: 'Libre Franklin', sans-serif;
-        margin-top: 0;
-        background-color: rgb(204, 212, 212);
-        color: rgba(95, 158, 160, 0.5);
-      }
-      
-      .footer-icon {
-        padding: 1.5vh .75vw;
-      }
-      
-      .name-copyright {
-        color: grey;
-        font-size: 1em;
-        margin: 0;
-        padding-top: 1vh;
-      }
+/*  ===== end icons ===== */
 
+hr {
+  border: 1px solid rgb(165, 188, 214);
+  margin: 0;
+}
 
+.space-site {
+  font-size: 1.5em;
+  margin: 4vh auto;
+}
 
-      /*  ============== MQ ================ */
+.btg-site {
+  font-size: 1.5em;
+  margin: 0vh auto 2vh auto;
+}
 
+.space-button {
+  width: z 230px;
+}
 
-      @media only screen and (max-width: 767px) {
+.btg-button {
+  margin-bottom: 2vh;
+  padding: 4px;
+}
 
-   .hide-br {
-     display:none;
-   }
+.language-option {
+  display: inline-flex;
+  font-family: "Roboto", sans-serif;
+  color: rgb(67, 111, 112);
+  margin-bottom: 10px;
+}
 
-   .name-francine {
-    font-family: 'Fredericka the Great', cursive;
+.language2 {
+  margin-bottom: 40px;
+}
+
+.setlist-project,
+.andrew-project {
+  display: flex;
+  justify-content: center;
+}
+
+.setlist-screens {
+  width: 24vw;
+}
+
+.andrew-screens {
+  width: 40vw;
+}
+
+.middle-screen,
+.andrew-second-screen {
+  padding: 0 1vw;
+}
+
+.and {
+  font-size: 30px;
+}
+
+/* ------------------------------- */
+/* -------- Contact Form --------- */
+/* ------------------------------- */
+
+.email-form {
+  font-family: "Fredericka the Great", cursive;
+  height: 85vh;
+  min-height: 310px;
+  background-image: url("./images/florian-klauer-expanded.png");
+  /* background-position: 100% top; */
+  background-position: 0% 0%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  padding-left: 50vw;
+  font-size: 2em;
+  padding-top: 1vh;
+  color: rgb(32, 45, 46);
+  border: solid 2px lightgrey;
+}
+
+.email-form-header {
+  font-family: "Fredericka the Great", cursive;
+  padding-top: 8vh;
+  padding-bottom: 2vh;
+  color: rgb(99, 53, 58);
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: 18vw 18vw;
+}
+
+#name {
+  height: 6vh;
+  width: 16vw;
+}
+
+#email {
+  height: 6vh;
+  width: 18vw;
+}
+
+.half {
+  padding-bottom: 4vh;
+}
+
+#message {
+  margin-top: 4vh;
+  height: 20vh;
+  width: 30vw;
+}
+
+.msg-touch {
+  margin-top: 40vh;
+  padding-top: 4vh;
+}
+
+.send-touch-button {
+  font-family: "Fredericka the Great", cursive;
+  color: rgb(32, 45, 46);
+  margin-top: 1vh;
+  height: 6vh;
+  /* width: 250px; */
+  font-size: 0.75em;
+  border-radius: 6px;
+}
+
+/* -------------------------- */
+/* --------- Footer --------- */
+/* -------------------------- */
+
+footer {
+  padding-top: 1vh;
+  text-align: center;
+  height: 6vh;
+  font-family: "Libre Franklin", sans-serif;
+  margin-top: 0;
+  background-color: rgb(204, 212, 212);
+  color: rgba(95, 158, 160, 0.5);
+}
+
+.footer-icon {
+  padding: 1.5vh 0.75vw;
+}
+
+.name-copyright {
+  color: grey;
+  font-size: 1em;
+  margin: 0;
+  padding-top: 1vh;
+}
+
+/*  ============== MQ ================ */
+
+@media only screen and (max-width: 900px) {
+  .email-form {
+    background-image: url("./images/florian-klauer-tablet.jpg");
+  }
+}
+
+@media only screen and (max-width: 767px) {
+
+  .hide-br {
+    display: none;
+  }
+
+  .name-francine {
+    font-family: "Fredericka the Great", cursive;
     font-size: 16px;
     margin-left: 52vw;
     bottom: 6.6vh;
@@ -464,9 +484,9 @@ img, h1, h2, h3, p {
 
   .main-subtitle {
     font-size: 1em;
-   }
+  }
 
-   .projects {
+  .projects {
     font-size: 1em;
   }
 
@@ -484,9 +504,9 @@ img, h1, h2, h3, p {
   }
 
   .site {
-    font-size: 1em;
+    font-size: .75em;
   }
-  
+
   .title {
     font-size: 1.25em;
   }
@@ -499,26 +519,113 @@ img, h1, h2, h3, p {
     width: 60vw;
     margin-left: 20%;
   }
- 
-  .andrew-screens, .btg-screens, .space-screens {
+
+  .andrew-screens,
+  .btg-screens,
+  .space-screens {
     width: 90vw;
     margin-left: 0%;
   }
-  
+
   .andrew-screens {
     margin-left: 5.5%;
   }
-  
-  .setlist-project, .andrew-project {
+
+  .setlist-project,
+  .andrew-project {
     flex-direction: column;
   }
 
-  .middle-screen, .andrew-second-screen {
+  .middle-screen,
+  .andrew-second-screen {
     padding: 10px 0 10px 0;
   }
   .bean-screens {
     width: 46vw;
   }
 
+  .swal2-image {
+    max-width: 300px;
+    max-height: 180px;
+  }
+
+  .swal2-popup {
+    padding: 0em;
+    width: 300px !important;
+    height: 400px !important;
+  }
+
+  .email-form {
+    background-image: url("./images/florian-klauer-mobile.jpg");
+    background-color: rgb(199, 190, 190);
+    background-size: contain;
+    padding-left: 10vw;
+    padding-bottom: 300px;
+    font-size: 1.5em;
+  }
+
+  .email-form-header {
+    margin-top: 400px;
+    padding-top: 8vh;
+  }
+
+  .name {
+    margin-right: 30px;
+  }
+
+  .intouch-name-email {
+    display: block;
+    font-size: 24px;
+  }
+
+  .field {
+    margin-top: 20px;
+  }
+  
+  /* style inputs */
+  
+  .fields {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    margin-top: -20px;
+  }
+  
+  input#name {
+    height: 4vh;
+    width: 140px;
+  }
+  
+  input#email {
+    height: 4vh;
+    width: 39vw;
+  }
+  #message {
+    margin-top: 1vh;
+    width: 80vw;
+  }
+
+  .half {
+    position: relative;
+    top: 30px;
+  }
+
+  .msg-touch {
+    margin-top: 400px;
+    padding-top: 4vh;
+  }
+
+  .send-touch-button {
+    font-family: "Fredericka the Great", cursive;
+    color: rgb(32, 45, 46);
+    margin-top: 1vh;
+    height: 6vh;
+    /* width: 250px; */
+    font-size: 0.75em;
+    border-radius: 6px;
+  }
+
+ .footer {
+   margin-top: 400px;
+ }
 
 }
