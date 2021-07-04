@@ -1,21 +1,24 @@
 (() => {
-  window.addEventListener('DOMContentLoaded', (event) => {
-    const wrenchButtons = document.querySelectorAll('.tools');
-    
-    function wrenchModal() {
+  window.addEventListener("DOMContentLoaded", (event) => {
+    const modals = document.querySelectorAll(".modal");
+
+    function displayModal() {
+      let span = this.querySelector('.modal-text')
+      let img = this.querySelector('img')
+      span === null ? span = '' : span = `${span.innerText}`;
+      img === null ? img = '' : img = `${img.src}`;
       Swal.fire({
-        title: `${this.children[1].innerText}`,
-        
-        confirmButtonColor: '#9fc1c2',
-        confirmButtonText: 'close'
-      })
+        title: span,
+        imageUrl: img,
+        confirmButtonColor: "#9fc1c2",
+        confirmButtonText: "close",
+      });
     }
 
-    for (wrenchButton of wrenchButtons) {
-      wrenchButton.addEventListener('click', wrenchModal)
+    for (modal of modals) {
+      modal.addEventListener("click", displayModal);
     }
 
     document.getElementById("year").innerHTML = new Date().getFullYear();
-
   });
 })();

@@ -2,7 +2,7 @@ body {
   overflow-x: hidden;
   margin: 0;
   padding: 0;
-  font-size: 100%;
+  font-size: 90%;
   list-style: none;
   border: 0;
 }
@@ -41,11 +41,11 @@ p {
   font-family: "Fredericka the Great", cursive;
   color: rgb(132, 153, 145);
   color: floralwhite;
-  font-size: 200%;
-  margin-left: 30vw;
+  font-size: 280%;
+  margin-left: 50vw;
   position: relative;
   /* right: 16vw; */
-  bottom: 10vh;
+  bottom: 16vh;
 }
 
 .name-altman {
@@ -61,7 +61,7 @@ p {
 .main-subtitle {
   font-family: "Libre Franklin", sans-serif;
   /* margin-top: 3vw; */
-  font-size: 2em;
+  font-size: 1.8em;
   color: rgb(95, 126, 96);
   text-align: right;
   margin-bottom: 10px;
@@ -87,12 +87,12 @@ p {
   margin: 0;
   padding: 6vh 0 6vh 3vw;
 }
-
+/* 
 .all-the-skills {
   justify-content: center;
   display: grid;
   grid-template-columns: 14vw 14vw 14vw 14vw 14vw;
-}
+} */
 
 /* below used when uneven number of skills */
 
@@ -102,7 +102,7 @@ p {
     grid-template-columns: 14vw 14vw 14vw 14vw;
   } */
 
-.skill {
+/* .skill {
   justify-self: center;
   padding-bottom: 8vh;
 }
@@ -185,7 +185,7 @@ p {
   color: white;
   font-size: 2em;
   padding-top: 3vh;
-}
+} */
 
 /* ---------------------------------------- */
 /* ----------- Work / Projects ------------ */
@@ -231,7 +231,7 @@ p {
   color: rgb(67, 111, 112);
   border-radius: 5px;
   margin-top: 1vh;
-  width: 230px;
+  width: 250px;
   height: 4vh;
 }
 
@@ -239,9 +239,12 @@ p {
   margin-bottom: 3vh;
 }
 
-.swal-text {
-  font-family: "Roboto", sans-serif;
-  color: salmon;
+.swal2-image {
+  margin: 0;
+}
+
+.swal2-popup {
+  width: 60em !important;
 }
 
 .projects-title {
@@ -283,7 +286,7 @@ p {
 
 /*  ===== start icons ===== */
 
-.tools {
+.modal {
   display: flex;
   justify-content: center;
   /* background-color: rgb(198, 219, 219); */
@@ -297,7 +300,11 @@ p {
   border-radius: 3px;
 }
 
-.tools-text {
+.modal-text {
+  display: none;
+}
+
+.modal img{
   display: none;
 }
 
@@ -467,20 +474,19 @@ footer {
   .email-form {
     background-image: url("./images/florian-klauer-tablet.jpg");
   }
+
+  .name-francine {
+    font-size: 220%;
+    margin-right: 2vw;
+    bottom: 76px;
+  }
 }
 
 @media only screen and (max-width: 767px) {
 
-  .hide-br {
+  /* .hide-br {
     display: none;
-  }
-
-  .name-francine {
-    font-family: "Fredericka the Great", cursive;
-    font-size: 16px;
-    margin-left: 52vw;
-    bottom: 6.6vh;
-  }
+  } */
 
   .main-subtitle {
     font-size: 1em;
@@ -544,15 +550,22 @@ footer {
     width: 46vw;
   }
 
+  h2#swal2-title.swal2-title {
+    font-size: 20px;
+  }
+
   .swal2-image {
-    max-width: 300px;
-    max-height: 180px;
+    max-height: 200px;
+    padding: 0em;
+    max-width:70%;
   }
 
   .swal2-popup {
     padding: 0em;
-    width: 300px !important;
-    height: 400px !important;
+  }
+  
+  .swal2-styled.swal2-confirm {
+    color:#9fc1c2;
   }
 
   .email-form {
@@ -627,5 +640,21 @@ footer {
  .footer {
    margin-top: 400px;
  }
-
+  
 }
+
+@media only screen and (max-width: 626px) {
+  .name-francine {
+    /* font-family: "Fredericka the Great", cursive; */
+    font-size: 120%;
+    margin-right: 2vw;
+    bottom: 40px;
+  }
+}
+
+/* @media only screen and (max-width: 400px) { */
+
+  /* .hide-br {
+    display: none;
+  }
+} */
