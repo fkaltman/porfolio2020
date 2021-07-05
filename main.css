@@ -44,7 +44,6 @@ p {
   font-size: 280%;
   margin-left: 50vw;
   position: relative;
-  /* right: 16vw; */
   bottom: 16vh;
 }
 
@@ -57,10 +56,6 @@ p {
   margin-bottom: 10px;
   margin-right: 6px;
 }
-
-/* .hide-br {
-    display:none;
-  } */
 
 /* ------------------------------- */
 /* ----------- Skills ------------ */
@@ -97,13 +92,6 @@ p {
   padding-top: 6vh;
 }
 
-/* .project-intro {
-  display: flex;
-  flex-flow: column nowrap;
-  justify-content: center;
-  align-items: center;
-  justify-items: center;
-} */
 
 .project-tools-github {
   display: flex;
@@ -186,7 +174,7 @@ p {
   font-family: "Roboto", sans-serif;
   font-size: 1.4em;
   font-weight: 800;
-  color: rgb(95, 126, 96);
+  color: #535252;
   margin: 1vh auto 4vh auto;
   max-width: 60vw;
 }
@@ -196,7 +184,6 @@ p {
   font-size: 2em;
   color: #65779e;
   text-decoration: none;
-  /* display: inline-flex; */
 }
 
 /*  ===== start icons ===== */
@@ -204,12 +191,9 @@ p {
 .modal {
   display: flex;
   justify-content: center;
-  /* background-color: rgb(198, 219, 219); */
   background-color: rgba(255, 255, 255, 0);
   color: rgb(95, 126, 96);
   text-align: center;
-  /* padding: 0.8vh 2vw;
-  margin: 2vh auto 2vh auto; */
   font-size: 1em;
   text-align: center;
   border-radius: 3px;
@@ -226,7 +210,6 @@ p {
 .github {
   font-size: 1.2em;
   color: rgb(67, 111, 112);
-  /* margin: 2vh auto 6vh auto; */
   text-decoration: none;
 }
 
@@ -364,11 +347,15 @@ hr {
   border-radius: 3px;
 }
 
+.linkedin {
+  text-align: center ;
+  height: 40px;
+}
+
 .fa-linkedin {
   color: #65779e;
-  margin-top: 30px;
-  /* display: flex;
-  align-items: right; */
+  margin-top: 7px;
+  
 }
 
 /* -------------------------- */
@@ -410,10 +397,7 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
-  /* .hide-br {
-    display: none;
-  } */
-
+ 
   .main-subtitle {
     font-size: 1em;
     margin-top: -30px;
@@ -493,7 +477,8 @@ footer {
   }
 
   .swal2-styled.swal2-confirm {
-    color: #9fc1c2;
+    color: #3d3d3d !important;
+    background-color: #c6ebeb!important;
   }
 
   .email-form {
@@ -597,3 +582,12 @@ footer {
     margin-top: 4vh;
   }
 }
+
+/*Tablet Query fixes contact form*/
+@media only screen and (min-width: 481px) and (max-width:768px) {
+  .email-form {
+    background-image: none;
+  }
+}
+
+

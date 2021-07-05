@@ -10,8 +10,6 @@
       Swal.fire({
         title: span,
         imageUrl: img,
-        confirmButtonColor: "#9fc1c2",
-        confirmButtonText: "close",
       });
     }
 
