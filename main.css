@@ -92,7 +92,6 @@ p {
   padding-top: 6vh;
 }
 
-
 .project-tools-github {
   display: flex;
   flex-flow: row nowrap;
@@ -107,7 +106,6 @@ p {
 .project-tools-github * {
   margin: 5px;
 }
-
 
 .bean-project,
 .space-project,
@@ -349,14 +347,13 @@ hr {
 }
 
 .linkedin {
-  text-align: center ;
+  text-align: center;
   height: 40px;
 }
 
 .fa-linkedin {
   color: #65779e;
   margin-top: 7px;
-  
 }
 
 /* -------------------------- */
@@ -398,11 +395,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
- 
   .main-subtitle {
     font-size: 1em;
     margin-top: -30px;
-}
+  }
 
   .projects {
     font-size: 1em;
@@ -479,7 +475,7 @@ footer {
 
   .swal2-styled.swal2-confirm {
     color: #3d3d3d !important;
-    background-color: #c6ebeb!important;
+    background-color: #c6ebeb !important;
   }
 
   .email-form {
@@ -585,10 +581,8 @@ footer {
 }
 
 /*Tablet Query fixes contact form*/
-@media only screen and (min-width: 481px) and (max-width:768px) {
+@media only screen and (min-width: 481px) and (max-width: 768px) {
   .email-form {
     background-image: none;
   }
 }
-
-
