@@ -5,6 +5,7 @@ body {
   font-size: 90%;
   list-style: none;
   border: 0;
+  background-color: #e9eceb;
 }
 
 html {
@@ -38,18 +39,24 @@ p {
 }
 
 .name-francine {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;
   color: rgb(132, 153, 145);
   color: floralwhite;
   font-size: 280%;
-  margin-left: 50vw;
+  margin-left: 38vw;
   position: relative;
   bottom: 16vh;
 }
 
+.bold {
+  font-weight: 900;
+  color:#7fff00;
+}
+
 .main-subtitle {
   font-family: "Libre Franklin", sans-serif;
-  margin-top: -60px;
+  /* margin-top: -60px; */
+  margin-top: -24px;
   font-size: 1.8em;
   color: rgb(95, 126, 96);
   text-align: right;
@@ -133,9 +140,14 @@ p {
   color: rgb(67, 111, 112);
   border-radius: 5px;
   margin-top: 1vh;
-  width: 210px;
+  /* width: 210px; */
+  width: 170px;
   height: 30px;
-  padding-top: 5px;
+  padding-top: 8px;
+  border-style: none;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  /* box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .second-button {
@@ -234,7 +246,8 @@ hr {
 }
 
 .space-button {
-  width: z 230px;
+  /* width: z 230px; */
+  width: 230px;
 }
 
 .btg-button {
@@ -247,6 +260,11 @@ hr {
   font-family: "Roboto", sans-serif;
   color: rgb(67, 111, 112);
   margin-bottom: 10px;
+  font-size: 0.9em;
+}
+
+.language-option:hover {
+  color: darkgrey;
 }
 
 .language2 {
@@ -281,7 +299,7 @@ hr {
 /* ------------------------------- */
 
 .email-form {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;
   height: 65vh;
   min-height: 310px;
   /* background-image: url("./images/florian-klauer-expanded.png"); */
@@ -299,11 +317,11 @@ hr {
 }
 
 .email-form-header {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.5em;
   padding-top: 8vh;
   padding-bottom: 6vh;
-  color: rgb(99, 53, 58);
+  color: #65779e;
 }
 
 .fields {
@@ -337,13 +355,15 @@ hr {
 }
 
 .send-touch-button {
-  font-family: "Fredericka the Great", cursive;
+  font-family: 'Montserrat', sans-serif;
   color: rgb(32, 45, 46);
   margin-top: 4vh;
   height: 30px;
   width: 180px;
   font-size: 0.75em;
   border-radius: 3px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
 
 .linkedin {
@@ -367,6 +387,7 @@ footer {
   font-family: "Libre Franklin", sans-serif;
   background-color: rgb(204, 212, 212);
   color: rgba(95, 158, 160, 0.5);
+  /* color: #e9eceb; */
 }
 
 .footer-icon {
@@ -396,8 +417,8 @@ footer {
 
 @media only screen and (max-width: 768px) {
   .main-subtitle {
-    font-size: 1em;
-    margin-top: -30px;
+    font-size: 1.3em;
+    margin-top: -16px;
   }
 
   .projects {
@@ -473,9 +494,12 @@ footer {
     padding: 0em;
   }
 
+  /* where is this? */
   .swal2-styled.swal2-confirm {
     color: #3d3d3d !important;
     background-color: #c6ebeb !important;
+    border-radius: 0px;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
   }
 
   .email-form {
@@ -539,7 +563,7 @@ footer {
   }
 
   .send-touch-button {
-    font-family: "Fredericka the Great", cursive;
+    font-family: 'Montserrat', sans-serif;
     color: rgb(32, 45, 46);
     margin-top: 1vh;
     height: 6vh;
